@@ -1,0 +1,22 @@
+{
+  "name": "postcss-map-values",
+  "version": "1.0.0",
+  "description": "Replace existing CSS values using a style map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlie8230/postcss-map-values.git"
+  },
+  "author": "Carlos Moran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlie8230/postcss-map-values/issues"
+  },
+  "homepage": "https://github.com/charlie8230/postcss-map-values#readme",
+  "dependencies": {
+    "postcss": "^7.0.16"
+  }
+}
