@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/charlie8230/postcss-map-values#readme",
   "dependencies": {
-    "postcss": "^7.0.16"
+    "postcss": "^7.0.17"
   }
 }
