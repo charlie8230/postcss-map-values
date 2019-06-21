@@ -3,7 +3,7 @@ var postcss = require('gulp-postcss');
 var sass = require('gulp-sass');
  
 sass.compiler = require('node-sass');
-var vals = require('./values.json');
+var vals = require('./vals.json');
 
 var mapvalues = require('./index');
 var plugins =[mapvalues({valueMap: vals})];
