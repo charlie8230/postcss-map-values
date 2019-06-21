@@ -5,13 +5,13 @@ module.exports = postcss.plugin('postcss-map-values', function (opts) {
   opts = opts || {}
     let valMap = opts.valueMap;
   // Work with options here
-
   return function (css, result) {
 
     // Transform CSS AST here
     css.walkDecls(decl=>{
-        console.log(decl);
-        matcher(decl.value, valMap);
+        let upt = matcher(decl.value, valMap);
+        if (upt) decl.value = upt;
+        console.log("Upt:", decl);
     });
 
   }
