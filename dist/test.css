@@ -1,4 +1,4 @@
 header {
-  color: $var; }
+  color: $color-black; }
   header p {
-    padding: $var; }
+    padding: 0; }

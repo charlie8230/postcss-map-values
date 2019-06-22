@@ -94,12 +94,12 @@
 "$line-height-regular-1": "1.35",
 "$line-height-loose-1": "1.5",
 "$line-primary": "1px solid #E0E0E0",
-"$font-family-franklinGothic-book": "'FranklinGothicURW-Boo', Helvetica, Arial, sans-serif",
-"$font-family-franklinGothic-dem": "'FranklinGothicURW-Dem', Helvetica, Arial, sans-serif",
-"$font-family-franklinGothic-cond-med": "'Franklin Gothic URW Cond Medium', Helvetica, Arial, sans-serif",
+"$font-family-franklinGothic-book": "FranklinGothicURW-Boo, Helvetica, Arial, sans-serif",
+"$font-family-franklinGothic-dem": "FranklinGothicURW-Dem, Helvetica, Arial, sans-serif",
+"$font-family-franklinGothic-cond-med": "Franklin Gothic URW Cond Medium, Helvetica, Arial, sans-serif",
 "$font-family-georgia": "Georgia, Times New Roman, Times, serif",
 "$font-family-helvetica": "Helvetica, Arial, sans-serif",
-"$font-family-franklinGothic-med": "'FranklinGothicURW-Med', Helvetica, Arial, sans-serif",
+"$font-family-franklinGothic-med": "FranklinGothicURW-Me', Helvetica, Arial, sans-serif",
 "$font-family-franklinGothic-cond-book": "'Franklin Gothic URW Cond Book', Helvetica, Arial, sans-serif",
 "$font-family-franklinGothic-cond-dem": "'Franklin Gothic URW Cond Dem', Helvetica, Arial, sans-serif"
 }

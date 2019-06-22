@@ -3,16 +3,19 @@ var matcher = require('./matcher');
 
 module.exports = postcss.plugin('postcss-map-values', function (opts) {
   opts = opts || {}
-    let valMap = opts.valueMap;
-  // Work with options here
+  let valMap = opts.valueMap;
+  let total = 0;
   return function (css, result) {
 
-    // Transform CSS AST here
     css.walkDecls(decl=>{
         let upt = matcher(decl.value, valMap);
-        if (upt) decl.value = upt;
-        //console.log("Upt:", decl);
+        if (upt) {
+          decl.value = upt;
+          total++;
+          if (opts.log) {
+            console.log('#',total, ':', upt);
+          }
+        }
     });
-
   }
 })
