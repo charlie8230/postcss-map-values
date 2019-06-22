@@ -1,0 +1,14 @@
+header {
+  color: $black; }
+  header p {
+    padding: $elem-padding; }
+
+body {
+  font-family: $body-font; }
+
+.section-wrap {
+  background-color: $color-grey-50;
+  border-top: $separator; }
+  .section-wrap .error-state {
+    color: $alert;
+    border: 1px solid rgba(0, 0, 0, 0.3); }

@@ -1,0 +1,10 @@
+{
+    "$black":"#000",
+    "$gray":"#ccc",
+    "$color-grey-50": "#F5F5F5",
+    "$body-font": "Arial, Verdana",
+    "$separator": "1px solid #CCC",
+    "$subtle-dark": "rgba(0,0,0,0.3)",
+    "$elem-padding": "12px",
+    "$alert": "red"
+}

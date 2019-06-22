@@ -3,9 +3,9 @@ var postcss = require('gulp-postcss');
 var sass = require('gulp-sass');
  
 sass.compiler = require('node-sass');
-var vals = require('./vals.json');
+var vals = require('./values.json');
 
-var mapvalues = require('./index');
+var mapvalues = require('../index');
 var plugins =[mapvalues({valueMap: vals, log: true})];
 gulp.task('default',()=>{
     return gulp.src('./*.scss')
