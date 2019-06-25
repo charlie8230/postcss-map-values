@@ -11,4 +11,4 @@ body {
   border-top: $separator; }
   .section-wrap .error-state {
     color: $alert;
-    border: 1px solid rgba(0, 0, 0, 0.3); }
+    border: 1px solid $subtle-dark; }
