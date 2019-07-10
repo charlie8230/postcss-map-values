@@ -1,14 +1,12 @@
+function replacer(src, key, value){
+    if (src===value) return key;// Key is usually a SASS var;
+
+}
 module.exports = function matcher(val, valMap, excludeSubString){
     if (!(val && valMap)) return;
     for (let key in valMap) {
-        if (valMap[key]===val) return key;
-        //console.log('replacing', val, valMap[key], val.includes(valMap[key]));
-        // Split values on space before replacing
-        if (typeof val === 'string' && val.includes && val.includes(valMap[key])) {
-            
-            let updated = val.replace(valMap[key], key);
-            return updated;
-        }
+        let replaced = replacer(valMap[key], key, val);
+        if (replaced) return replaced;
     }
     return false;
 }
